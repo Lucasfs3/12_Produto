@@ -35,7 +35,7 @@ class Produto {
         }
         return true
     }
-    Salvar(produto) {
+    salvar(produto) {
         this.arrayProdutos.push(produto)
         this.id++;
     }
